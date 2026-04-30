@@ -36,6 +36,8 @@ It allows users to:
 ---
 
 ## 📂 Project Structure
+
+
 Campus_Pulse_Dashboard/
 │
 ├── backend/
@@ -56,7 +58,7 @@ Campus_Pulse_Dashboard/
 └── README.md
 
 
----
+
 
 ## 📊 Features
 
