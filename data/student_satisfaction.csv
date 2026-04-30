@@ -1,0 +1,801 @@
+student_id,gender,year,department,facility,satisfaction_score
+1,Male,1st Year,Management,Hostel,3
+2,Female,2nd Year,Science,Sports Center,1
+3,Female,2nd Year,Arts,Hostel,5
+4,Female,2nd Year,Science,Cafeteria,2
+5,Female,2nd Year,Arts,Cafeteria,3
+6,Male,3rd Year,Management,WiFi,4
+7,Male,4th Year,Engineering,Sports Center,3
+8,Male,1st Year,Engineering,Library,2
+9,Male,1st Year,Science,WiFi,5
+10,Female,4th Year,Engineering,Hostel,5
+11,Male,1st Year,Engineering,Library,4
+12,Female,4th Year,Engineering,Library,3
+13,Female,2nd Year,Management,Cafeteria,2
+14,Male,2nd Year,Engineering,Sports Center,1
+15,Male,2nd Year,Engineering,WiFi,4
+16,Female,2nd Year,Engineering,Cafeteria,5
+17,Male,2nd Year,Engineering,WiFi,1
+18,Female,4th Year,Science,Cafeteria,5
+19,Female,1st Year,Arts,Library,3
+20,Male,1st Year,Arts,Sports Center,4
+21,Male,4th Year,Science,Library,5
+22,Male,2nd Year,Management,WiFi,5
+23,Female,4th Year,Engineering,Sports Center,3
+24,Male,2nd Year,Management,WiFi,5
+25,Female,1st Year,Science,Sports Center,5
+26,Female,4th Year,Arts,Library,3
+27,Female,2nd Year,Science,Hostel,5
+28,Male,2nd Year,Arts,Hostel,3
+29,Male,4th Year,Arts,Hostel,5
+30,Male,1st Year,Arts,Cafeteria,1
+31,Female,2nd Year,Arts,Hostel,4
+32,Male,3rd Year,Engineering,WiFi,1
+33,Female,1st Year,Arts,Cafeteria,1
+34,Female,2nd Year,Science,Cafeteria,5
+35,Male,4th Year,Arts,Cafeteria,5
+36,Male,2nd Year,Engineering,WiFi,4
+37,Female,4th Year,Arts,Cafeteria,3
+38,Male,2nd Year,Management,Library,1
+39,Female,2nd Year,Arts,WiFi,5
+40,Female,4th Year,Engineering,Hostel,3
+41,Female,3rd Year,Science,Library,5
+42,Male,2nd Year,Arts,WiFi,2
+43,Female,4th Year,Science,Sports Center,2
+44,Female,3rd Year,Management,Library,1
+45,Female,3rd Year,Engineering,WiFi,3
+46,Male,4th Year,Science,WiFi,2
+47,Male,1st Year,Arts,Hostel,1
+48,Female,1st Year,Science,WiFi,4
+49,Female,1st Year,Management,Library,1
+50,Male,1st Year,Management,Sports Center,4
+51,Female,1st Year,Engineering,Hostel,3
+52,Male,1st Year,Science,Library,5
+53,Male,2nd Year,Science,Hostel,4
+54,Male,4th Year,Management,Library,5
+55,Male,4th Year,Arts,Cafeteria,3
+56,Female,3rd Year,Management,Cafeteria,1
+57,Male,1st Year,Science,Cafeteria,5
+58,Female,4th Year,Science,Library,5
+59,Male,2nd Year,Science,Sports Center,5
+60,Male,3rd Year,Engineering,Sports Center,4
+61,Female,1st Year,Science,Hostel,3
+62,Female,1st Year,Engineering,Sports Center,3
+63,Male,1st Year,Science,Sports Center,1
+64,Male,1st Year,Arts,Sports Center,1
+65,Male,4th Year,Science,Library,3
+66,Male,3rd Year,Arts,Cafeteria,1
+67,Female,2nd Year,Science,Hostel,2
+68,Female,4th Year,Science,Sports Center,2
+69,Male,2nd Year,Arts,Sports Center,3
+70,Female,2nd Year,Management,Library,5
+71,Female,3rd Year,Management,Cafeteria,5
+72,Female,4th Year,Science,Hostel,2
+73,Female,2nd Year,Engineering,Library,2
+74,Male,3rd Year,Management,WiFi,2
+75,Female,2nd Year,Science,Sports Center,2
+76,Male,3rd Year,Engineering,Hostel,5
+77,Male,2nd Year,Science,Cafeteria,2
+78,Female,3rd Year,Science,Library,1
+79,Male,2nd Year,Engineering,WiFi,5
+80,Female,3rd Year,Science,Sports Center,3
+81,Male,2nd Year,Science,WiFi,4
+82,Male,2nd Year,Arts,Library,3
+83,Female,4th Year,Management,WiFi,4
+84,Male,2nd Year,Engineering,Hostel,5
+85,Male,4th Year,Engineering,Cafeteria,2
+86,Female,3rd Year,Science,Cafeteria,1
+87,Female,3rd Year,Engineering,WiFi,3
+88,Male,3rd Year,Science,Library,1
+89,Female,2nd Year,Engineering,Cafeteria,1
+90,Female,2nd Year,Engineering,WiFi,1
+91,Female,2nd Year,Engineering,Hostel,1
+92,Male,1st Year,Engineering,WiFi,4
+93,Male,1st Year,Management,Sports Center,2
+94,Female,4th Year,Science,Cafeteria,4
+95,Male,3rd Year,Science,Sports Center,5
+96,Female,4th Year,Engineering,Hostel,2
+97,Female,1st Year,Management,Cafeteria,2
+98,Female,1st Year,Science,Library,3
+99,Female,4th Year,Management,WiFi,1
+100,Female,2nd Year,Arts,Sports Center,4
+101,Female,2nd Year,Science,Cafeteria,3
+102,Female,4th Year,Management,Cafeteria,4
+103,Female,4th Year,Science,Library,5
+104,Female,3rd Year,Arts,WiFi,5
+105,Male,4th Year,Management,Cafeteria,5
+106,Male,4th Year,Management,Cafeteria,5
+107,Female,3rd Year,Science,Hostel,3
+108,Male,2nd Year,Arts,Hostel,4
+109,Male,4th Year,Management,WiFi,5
+110,Female,3rd Year,Management,Hostel,5
+111,Male,3rd Year,Engineering,Library,2
+112,Male,4th Year,Management,WiFi,3
+113,Male,1st Year,Arts,WiFi,3
+114,Male,1st Year,Management,Hostel,2
+115,Male,3rd Year,Science,Sports Center,1
+116,Male,1st Year,Engineering,Cafeteria,4
+117,Female,1st Year,Arts,Sports Center,2
+118,Male,4th Year,Science,Hostel,3
+119,Female,3rd Year,Arts,Sports Center,1
+120,Female,3rd Year,Engineering,Hostel,5
+121,Female,1st Year,Arts,Hostel,1
+122,Male,2nd Year,Engineering,Cafeteria,3
+123,Male,3rd Year,Arts,Sports Center,5
+124,Female,4th Year,Engineering,Cafeteria,1
+125,Female,1st Year,Engineering,Hostel,5
+126,Male,2nd Year,Science,WiFi,1
+127,Female,3rd Year,Engineering,Library,4
+128,Female,3rd Year,Management,Sports Center,1
+129,Male,2nd Year,Engineering,WiFi,2
+130,Male,1st Year,Arts,Sports Center,5
+131,Female,3rd Year,Science,Sports Center,5
+132,Female,3rd Year,Management,WiFi,3
+133,Female,2nd Year,Management,Hostel,4
+134,Male,4th Year,Arts,WiFi,4
+135,Male,1st Year,Engineering,Hostel,1
+136,Female,3rd Year,Management,Hostel,3
+137,Male,3rd Year,Science,Library,1
+138,Male,4th Year,Management,Hostel,3
+139,Male,1st Year,Arts,Library,5
+140,Male,3rd Year,Management,Cafeteria,4
+141,Male,3rd Year,Engineering,WiFi,1
+142,Female,4th Year,Management,Cafeteria,4
+143,Male,1st Year,Management,Sports Center,5
+144,Female,4th Year,Engineering,Cafeteria,3
+145,Female,1st Year,Engineering,Sports Center,3
+146,Male,3rd Year,Engineering,Cafeteria,2
+147,Female,4th Year,Engineering,Hostel,2
+148,Male,3rd Year,Engineering,Hostel,1
+149,Female,4th Year,Management,Hostel,1
+150,Male,4th Year,Science,WiFi,2
+151,Male,2nd Year,Science,Hostel,1
+152,Female,2nd Year,Science,Sports Center,1
+153,Male,2nd Year,Engineering,Library,3
+154,Male,2nd Year,Engineering,Sports Center,1
+155,Female,1st Year,Science,Sports Center,5
+156,Female,4th Year,Arts,Hostel,5
+157,Male,4th Year,Arts,Hostel,2
+158,Male,3rd Year,Engineering,Library,2
+159,Male,1st Year,Management,Sports Center,2
+160,Male,3rd Year,Management,WiFi,4
+161,Female,4th Year,Engineering,Hostel,1
+162,Male,4th Year,Engineering,Library,4
+163,Male,4th Year,Science,WiFi,1
+164,Male,4th Year,Science,Library,1
+165,Male,4th Year,Engineering,Sports Center,3
+166,Female,4th Year,Management,Hostel,2
+167,Female,3rd Year,Management,Library,3
+168,Male,2nd Year,Science,Cafeteria,1
+169,Male,3rd Year,Engineering,Sports Center,1
+170,Male,3rd Year,Engineering,Sports Center,4
+171,Female,4th Year,Science,Cafeteria,4
+172,Male,4th Year,Arts,Sports Center,2
+173,Female,1st Year,Management,Hostel,3
+174,Male,3rd Year,Management,Cafeteria,3
+175,Male,3rd Year,Arts,Hostel,2
+176,Male,2nd Year,Management,WiFi,1
+177,Male,3rd Year,Science,Cafeteria,1
+178,Male,4th Year,Engineering,Cafeteria,4
+179,Male,1st Year,Management,WiFi,1
+180,Male,1st Year,Arts,WiFi,2
+181,Male,3rd Year,Arts,WiFi,2
+182,Male,2nd Year,Engineering,Hostel,2
+183,Male,4th Year,Arts,Hostel,5
+184,Female,3rd Year,Science,Cafeteria,1
+185,Female,2nd Year,Engineering,Sports Center,1
+186,Female,2nd Year,Arts,Sports Center,2
+187,Female,3rd Year,Arts,Cafeteria,5
+188,Male,3rd Year,Science,WiFi,4
+189,Male,3rd Year,Engineering,Hostel,3
+190,Male,2nd Year,Engineering,Library,3
+191,Female,4th Year,Arts,Cafeteria,4
+192,Male,1st Year,Engineering,Sports Center,4
+193,Male,4th Year,Science,Sports Center,5
+194,Male,4th Year,Science,WiFi,1
+195,Female,4th Year,Engineering,WiFi,3
+196,Male,1st Year,Arts,Hostel,2
+197,Male,2nd Year,Arts,Library,5
+198,Male,3rd Year,Science,WiFi,4
+199,Female,3rd Year,Arts,Cafeteria,3
+200,Female,2nd Year,Arts,Sports Center,4
+201,Female,1st Year,Science,Library,2
+202,Female,1st Year,Arts,Library,2
+203,Female,3rd Year,Arts,Cafeteria,3
+204,Female,1st Year,Arts,WiFi,2
+205,Male,3rd Year,Engineering,WiFi,5
+206,Male,3rd Year,Engineering,Sports Center,4
+207,Male,1st Year,Science,Library,2
+208,Male,4th Year,Management,Library,5
+209,Male,3rd Year,Management,Cafeteria,5
+210,Male,4th Year,Management,Cafeteria,3
+211,Female,3rd Year,Management,Cafeteria,4
+212,Female,2nd Year,Management,Library,4
+213,Female,1st Year,Management,Hostel,2
+214,Female,2nd Year,Science,WiFi,3
+215,Female,3rd Year,Science,WiFi,4
+216,Male,1st Year,Arts,Library,2
+217,Female,1st Year,Management,Library,3
+218,Male,4th Year,Management,Sports Center,1
+219,Female,4th Year,Management,Sports Center,1
+220,Female,2nd Year,Science,Hostel,3
+221,Male,4th Year,Arts,WiFi,4
+222,Female,3rd Year,Management,Cafeteria,3
+223,Female,4th Year,Management,Hostel,5
+224,Female,3rd Year,Management,Library,4
+225,Male,4th Year,Engineering,Sports Center,5
+226,Female,1st Year,Science,Library,2
+227,Female,1st Year,Arts,Library,5
+228,Male,1st Year,Arts,Hostel,2
+229,Female,2nd Year,Arts,WiFi,1
+230,Male,3rd Year,Engineering,Library,1
+231,Male,2nd Year,Arts,Library,5
+232,Male,3rd Year,Engineering,Hostel,5
+233,Female,3rd Year,Engineering,WiFi,2
+234,Female,3rd Year,Management,Library,4
+235,Male,1st Year,Science,WiFi,4
+236,Female,1st Year,Arts,Sports Center,2
+237,Female,4th Year,Arts,Hostel,2
+238,Female,1st Year,Arts,Hostel,3
+239,Male,4th Year,Management,Library,1
+240,Male,3rd Year,Management,Library,3
+241,Male,3rd Year,Management,Hostel,2
+242,Male,4th Year,Arts,Library,5
+243,Female,4th Year,Engineering,Sports Center,4
+244,Male,1st Year,Engineering,WiFi,3
+245,Female,1st Year,Arts,Library,2
+246,Male,4th Year,Engineering,Library,5
+247,Female,2nd Year,Engineering,Hostel,2
+248,Male,4th Year,Engineering,WiFi,1
+249,Male,3rd Year,Science,WiFi,4
+250,Female,4th Year,Engineering,WiFi,4
+251,Male,2nd Year,Arts,WiFi,4
+252,Male,3rd Year,Science,WiFi,4
+253,Female,4th Year,Management,Sports Center,3
+254,Male,1st Year,Management,Cafeteria,2
+255,Female,3rd Year,Science,Hostel,4
+256,Female,1st Year,Engineering,Hostel,3
+257,Male,4th Year,Engineering,Cafeteria,4
+258,Male,2nd Year,Engineering,Hostel,1
+259,Male,3rd Year,Arts,Library,3
+260,Male,3rd Year,Science,WiFi,3
+261,Female,3rd Year,Science,Hostel,2
+262,Female,2nd Year,Management,Cafeteria,5
+263,Female,1st Year,Science,Sports Center,4
+264,Female,1st Year,Engineering,WiFi,1
+265,Female,3rd Year,Arts,Hostel,5
+266,Female,3rd Year,Science,Library,4
+267,Male,2nd Year,Science,Hostel,2
+268,Female,4th Year,Engineering,Library,4
+269,Male,4th Year,Science,Sports Center,3
+270,Male,2nd Year,Engineering,Hostel,2
+271,Male,3rd Year,Arts,Hostel,2
+272,Female,1st Year,Science,WiFi,1
+273,Female,2nd Year,Engineering,Library,5
+274,Male,1st Year,Science,Hostel,5
+275,Male,2nd Year,Science,Cafeteria,3
+276,Female,1st Year,Science,WiFi,2
+277,Male,1st Year,Engineering,Cafeteria,5
+278,Female,2nd Year,Science,Library,5
+279,Female,2nd Year,Science,WiFi,2
+280,Male,4th Year,Management,Library,4
+281,Female,2nd Year,Engineering,Sports Center,2
+282,Male,2nd Year,Management,Sports Center,2
+283,Male,2nd Year,Management,Cafeteria,3
+284,Female,1st Year,Management,Sports Center,1
+285,Male,3rd Year,Science,WiFi,4
+286,Female,1st Year,Science,Hostel,3
+287,Female,2nd Year,Arts,WiFi,4
+288,Male,1st Year,Engineering,Hostel,1
+289,Male,1st Year,Science,Hostel,3
+290,Male,3rd Year,Engineering,Hostel,4
+291,Male,2nd Year,Management,WiFi,2
+292,Male,3rd Year,Management,Sports Center,3
+293,Female,2nd Year,Management,Cafeteria,2
+294,Male,2nd Year,Arts,Sports Center,2
+295,Male,3rd Year,Engineering,WiFi,2
+296,Female,2nd Year,Engineering,Cafeteria,4
+297,Female,3rd Year,Arts,WiFi,5
+298,Female,3rd Year,Arts,Library,2
+299,Male,2nd Year,Management,Library,2
+300,Male,4th Year,Management,WiFi,3
+301,Male,1st Year,Arts,Sports Center,4
+302,Male,1st Year,Arts,Library,3
+303,Female,4th Year,Science,WiFi,5
+304,Female,1st Year,Science,Cafeteria,1
+305,Female,3rd Year,Management,Library,1
+306,Male,4th Year,Science,Library,2
+307,Female,4th Year,Engineering,Library,5
+308,Male,1st Year,Arts,WiFi,3
+309,Female,1st Year,Management,Cafeteria,1
+310,Female,2nd Year,Engineering,Cafeteria,4
+311,Female,4th Year,Engineering,Library,1
+312,Male,3rd Year,Science,Hostel,1
+313,Female,4th Year,Management,Hostel,4
+314,Female,3rd Year,Management,WiFi,3
+315,Male,2nd Year,Engineering,WiFi,4
+316,Female,2nd Year,Engineering,WiFi,3
+317,Female,4th Year,Arts,WiFi,4
+318,Male,1st Year,Engineering,Sports Center,3
+319,Male,1st Year,Engineering,Hostel,5
+320,Female,4th Year,Arts,WiFi,2
+321,Female,4th Year,Science,WiFi,5
+322,Female,4th Year,Management,Cafeteria,3
+323,Male,4th Year,Science,WiFi,4
+324,Female,4th Year,Engineering,WiFi,1
+325,Male,1st Year,Science,Cafeteria,4
+326,Female,1st Year,Management,Library,3
+327,Female,4th Year,Engineering,Sports Center,3
+328,Female,3rd Year,Engineering,WiFi,4
+329,Female,3rd Year,Science,WiFi,1
+330,Male,1st Year,Management,Library,4
+331,Male,3rd Year,Arts,Library,3
+332,Male,1st Year,Arts,Cafeteria,3
+333,Male,1st Year,Engineering,WiFi,5
+334,Female,3rd Year,Science,Hostel,4
+335,Female,3rd Year,Management,Library,1
+336,Male,4th Year,Arts,Sports Center,4
+337,Female,4th Year,Science,Library,1
+338,Female,4th Year,Management,Cafeteria,5
+339,Male,3rd Year,Arts,WiFi,3
+340,Female,1st Year,Science,Cafeteria,1
+341,Male,2nd Year,Science,WiFi,5
+342,Male,1st Year,Engineering,WiFi,2
+343,Male,2nd Year,Engineering,Hostel,2
+344,Female,4th Year,Management,WiFi,2
+345,Female,3rd Year,Science,WiFi,1
+346,Female,4th Year,Management,Cafeteria,4
+347,Female,2nd Year,Arts,Sports Center,3
+348,Female,4th Year,Arts,Hostel,4
+349,Male,4th Year,Management,Library,2
+350,Female,3rd Year,Management,WiFi,3
+351,Female,2nd Year,Management,Hostel,3
+352,Male,2nd Year,Science,WiFi,5
+353,Female,2nd Year,Science,Sports Center,3
+354,Female,1st Year,Management,Hostel,4
+355,Female,4th Year,Science,WiFi,1
+356,Male,4th Year,Science,Sports Center,5
+357,Female,2nd Year,Engineering,Sports Center,5
+358,Male,4th Year,Arts,WiFi,1
+359,Female,4th Year,Science,Hostel,1
+360,Male,2nd Year,Arts,Cafeteria,5
+361,Female,1st Year,Arts,Hostel,5
+362,Male,3rd Year,Engineering,Sports Center,2
+363,Male,4th Year,Management,WiFi,4
+364,Male,4th Year,Science,WiFi,5
+365,Male,2nd Year,Arts,Sports Center,2
+366,Male,1st Year,Engineering,Hostel,4
+367,Male,1st Year,Arts,WiFi,1
+368,Male,1st Year,Arts,Sports Center,5
+369,Male,2nd Year,Management,Hostel,2
+370,Male,4th Year,Science,Cafeteria,2
+371,Male,4th Year,Science,Hostel,3
+372,Male,1st Year,Science,Cafeteria,3
+373,Male,2nd Year,Management,Hostel,5
+374,Female,2nd Year,Arts,Hostel,1
+375,Female,1st Year,Engineering,Hostel,2
+376,Female,4th Year,Engineering,WiFi,3
+377,Male,4th Year,Science,Sports Center,1
+378,Male,4th Year,Engineering,Library,3
+379,Female,4th Year,Management,WiFi,4
+380,Female,4th Year,Management,WiFi,1
+381,Male,1st Year,Arts,Library,5
+382,Male,3rd Year,Science,Library,2
+383,Male,2nd Year,Science,Hostel,1
+384,Female,4th Year,Management,Hostel,4
+385,Female,3rd Year,Management,Library,2
+386,Male,4th Year,Science,WiFi,2
+387,Male,1st Year,Arts,Hostel,2
+388,Female,1st Year,Engineering,Library,1
+389,Female,2nd Year,Arts,WiFi,1
+390,Female,3rd Year,Management,Sports Center,4
+391,Male,3rd Year,Science,Hostel,1
+392,Female,2nd Year,Arts,WiFi,2
+393,Male,2nd Year,Management,Cafeteria,2
+394,Female,2nd Year,Science,Sports Center,1
+395,Male,3rd Year,Engineering,Cafeteria,2
+396,Female,4th Year,Arts,WiFi,2
+397,Female,4th Year,Engineering,WiFi,1
+398,Female,4th Year,Science,WiFi,1
+399,Female,2nd Year,Engineering,Library,2
+400,Male,2nd Year,Science,Library,1
+401,Male,3rd Year,Management,Library,1
+402,Male,2nd Year,Arts,Sports Center,3
+403,Female,3rd Year,Management,Library,1
+404,Female,2nd Year,Management,Cafeteria,2
+405,Male,2nd Year,Arts,Cafeteria,4
+406,Male,3rd Year,Engineering,Cafeteria,3
+407,Female,1st Year,Management,WiFi,1
+408,Male,4th Year,Science,Cafeteria,4
+409,Male,4th Year,Management,Sports Center,2
+410,Male,1st Year,Arts,Cafeteria,3
+411,Male,4th Year,Engineering,WiFi,3
+412,Male,1st Year,Engineering,Hostel,2
+413,Female,3rd Year,Arts,WiFi,2
+414,Female,2nd Year,Management,WiFi,2
+415,Female,1st Year,Arts,Cafeteria,3
+416,Male,2nd Year,Science,WiFi,3
+417,Male,4th Year,Science,Cafeteria,4
+418,Female,2nd Year,Arts,Library,2
+419,Female,1st Year,Engineering,Sports Center,2
+420,Female,1st Year,Science,Cafeteria,4
+421,Male,1st Year,Science,WiFi,3
+422,Female,4th Year,Engineering,Sports Center,2
+423,Male,1st Year,Engineering,WiFi,2
+424,Female,4th Year,Arts,Cafeteria,1
+425,Male,3rd Year,Science,Library,4
+426,Male,3rd Year,Science,WiFi,1
+427,Male,2nd Year,Management,Library,4
+428,Female,4th Year,Management,Cafeteria,1
+429,Female,3rd Year,Engineering,Hostel,2
+430,Male,1st Year,Management,Sports Center,4
+431,Male,2nd Year,Management,Hostel,4
+432,Male,2nd Year,Arts,WiFi,3
+433,Male,2nd Year,Management,Cafeteria,3
+434,Female,3rd Year,Arts,Hostel,5
+435,Female,2nd Year,Management,Hostel,4
+436,Female,2nd Year,Management,Cafeteria,3
+437,Female,3rd Year,Arts,Library,2
+438,Female,3rd Year,Engineering,Hostel,5
+439,Male,2nd Year,Management,Sports Center,4
+440,Male,2nd Year,Management,Cafeteria,1
+441,Male,4th Year,Management,Sports Center,5
+442,Male,4th Year,Engineering,Sports Center,1
+443,Male,1st Year,Engineering,Hostel,2
+444,Female,4th Year,Engineering,Hostel,3
+445,Female,3rd Year,Management,WiFi,1
+446,Female,1st Year,Science,Sports Center,4
+447,Male,3rd Year,Arts,Cafeteria,5
+448,Female,3rd Year,Arts,Cafeteria,5
+449,Female,3rd Year,Engineering,Library,4
+450,Male,3rd Year,Engineering,WiFi,1
+451,Male,2nd Year,Engineering,Cafeteria,1
+452,Female,2nd Year,Arts,Cafeteria,3
+453,Female,3rd Year,Management,Library,5
+454,Female,3rd Year,Management,Sports Center,2
+455,Female,4th Year,Arts,WiFi,2
+456,Male,3rd Year,Arts,WiFi,4
+457,Female,4th Year,Science,WiFi,4
+458,Male,2nd Year,Engineering,Sports Center,2
+459,Female,3rd Year,Science,Hostel,2
+460,Male,1st Year,Science,Hostel,5
+461,Female,3rd Year,Arts,Library,1
+462,Female,1st Year,Science,Hostel,2
+463,Male,3rd Year,Arts,Library,2
+464,Male,1st Year,Arts,Cafeteria,4
+465,Male,3rd Year,Science,Sports Center,1
+466,Male,1st Year,Science,Cafeteria,4
+467,Female,3rd Year,Engineering,WiFi,3
+468,Female,1st Year,Science,Library,3
+469,Male,3rd Year,Management,Hostel,4
+470,Male,1st Year,Science,Cafeteria,2
+471,Female,1st Year,Engineering,Cafeteria,3
+472,Female,1st Year,Management,Sports Center,5
+473,Male,3rd Year,Science,Library,4
+474,Female,4th Year,Engineering,Cafeteria,1
+475,Male,3rd Year,Engineering,Sports Center,1
+476,Female,2nd Year,Engineering,Hostel,5
+477,Male,3rd Year,Engineering,WiFi,1
+478,Female,4th Year,Arts,Cafeteria,1
+479,Female,2nd Year,Science,Sports Center,5
+480,Female,2nd Year,Science,Sports Center,3
+481,Female,3rd Year,Management,Cafeteria,3
+482,Female,3rd Year,Engineering,Sports Center,5
+483,Female,3rd Year,Management,Sports Center,3
+484,Female,3rd Year,Arts,Hostel,5
+485,Male,1st Year,Engineering,Library,3
+486,Male,4th Year,Management,Hostel,1
+487,Male,2nd Year,Arts,Sports Center,3
+488,Female,4th Year,Engineering,Cafeteria,3
+489,Female,1st Year,Engineering,Cafeteria,5
+490,Male,3rd Year,Science,Library,3
+491,Male,1st Year,Science,Library,1
+492,Male,1st Year,Management,Library,5
+493,Female,2nd Year,Science,Hostel,1
+494,Female,2nd Year,Engineering,Cafeteria,4
+495,Male,2nd Year,Engineering,Cafeteria,1
+496,Male,4th Year,Management,Cafeteria,1
+497,Male,3rd Year,Management,WiFi,4
+498,Female,2nd Year,Science,Sports Center,5
+499,Female,4th Year,Management,WiFi,1
+500,Female,4th Year,Engineering,Sports Center,1
+501,Female,3rd Year,Arts,Hostel,1
+502,Male,4th Year,Management,Hostel,4
+503,Male,4th Year,Management,Sports Center,2
+504,Male,1st Year,Arts,Cafeteria,2
+505,Female,2nd Year,Science,Sports Center,1
+506,Female,4th Year,Engineering,Library,1
+507,Male,4th Year,Engineering,Cafeteria,2
+508,Female,1st Year,Science,WiFi,1
+509,Male,3rd Year,Engineering,WiFi,2
+510,Male,4th Year,Arts,WiFi,1
+511,Male,2nd Year,Science,Hostel,5
+512,Female,3rd Year,Engineering,Library,5
+513,Female,3rd Year,Management,Library,1
+514,Female,2nd Year,Science,Hostel,3
+515,Female,1st Year,Engineering,Cafeteria,5
+516,Male,1st Year,Engineering,Hostel,1
+517,Female,4th Year,Engineering,Hostel,4
+518,Male,3rd Year,Arts,Sports Center,5
+519,Female,1st Year,Engineering,Hostel,3
+520,Female,4th Year,Management,Cafeteria,1
+521,Male,3rd Year,Arts,Cafeteria,1
+522,Female,2nd Year,Management,WiFi,5
+523,Female,4th Year,Management,WiFi,5
+524,Female,3rd Year,Engineering,Cafeteria,2
+525,Male,2nd Year,Science,Sports Center,3
+526,Female,2nd Year,Arts,Library,1
+527,Male,3rd Year,Management,Cafeteria,3
+528,Male,4th Year,Management,WiFi,5
+529,Male,3rd Year,Management,Sports Center,4
+530,Male,3rd Year,Science,Sports Center,3
+531,Male,2nd Year,Science,Library,1
+532,Male,1st Year,Arts,Hostel,4
+533,Female,2nd Year,Science,Library,3
+534,Female,1st Year,Engineering,Hostel,3
+535,Male,1st Year,Engineering,Cafeteria,1
+536,Male,4th Year,Science,WiFi,4
+537,Male,1st Year,Arts,Library,1
+538,Female,1st Year,Arts,Hostel,3
+539,Male,4th Year,Management,Sports Center,2
+540,Male,1st Year,Management,Cafeteria,2
+541,Female,2nd Year,Arts,Hostel,4
+542,Male,4th Year,Management,Library,2
+543,Female,1st Year,Management,Hostel,1
+544,Female,1st Year,Management,Cafeteria,1
+545,Female,4th Year,Arts,Hostel,1
+546,Female,1st Year,Engineering,Hostel,4
+547,Male,2nd Year,Science,WiFi,4
+548,Female,2nd Year,Engineering,WiFi,3
+549,Male,2nd Year,Science,Cafeteria,4
+550,Male,2nd Year,Science,WiFi,3
+551,Female,2nd Year,Management,Library,5
+552,Female,2nd Year,Arts,Library,5
+553,Female,1st Year,Arts,Cafeteria,3
+554,Male,1st Year,Management,Hostel,1
+555,Female,4th Year,Science,Sports Center,4
+556,Female,2nd Year,Science,WiFi,2
+557,Male,2nd Year,Engineering,WiFi,4
+558,Female,2nd Year,Management,Hostel,3
+559,Female,3rd Year,Management,Cafeteria,1
+560,Male,1st Year,Arts,Library,2
+561,Male,2nd Year,Science,Hostel,1
+562,Female,4th Year,Arts,Sports Center,2
+563,Male,4th Year,Arts,Hostel,3
+564,Male,3rd Year,Science,WiFi,3
+565,Female,4th Year,Science,Library,2
+566,Female,2nd Year,Arts,Cafeteria,3
+567,Female,3rd Year,Engineering,Sports Center,5
+568,Male,4th Year,Arts,Library,3
+569,Female,1st Year,Arts,Sports Center,4
+570,Female,1st Year,Management,Hostel,1
+571,Female,3rd Year,Arts,WiFi,2
+572,Female,1st Year,Management,WiFi,2
+573,Female,4th Year,Management,Library,4
+574,Female,4th Year,Science,Cafeteria,4
+575,Male,1st Year,Arts,WiFi,1
+576,Female,3rd Year,Science,WiFi,4
+577,Male,3rd Year,Management,Cafeteria,5
+578,Female,3rd Year,Science,Sports Center,4
+579,Female,3rd Year,Arts,WiFi,3
+580,Female,3rd Year,Science,Cafeteria,4
+581,Male,1st Year,Arts,Library,2
+582,Female,1st Year,Arts,Sports Center,3
+583,Female,1st Year,Science,Hostel,5
+584,Female,4th Year,Science,Hostel,3
+585,Female,2nd Year,Science,Cafeteria,2
+586,Male,1st Year,Science,Sports Center,4
+587,Male,2nd Year,Engineering,Hostel,2
+588,Female,4th Year,Science,Cafeteria,5
+589,Female,3rd Year,Arts,Cafeteria,2
+590,Female,4th Year,Arts,WiFi,2
+591,Male,3rd Year,Arts,Hostel,5
+592,Male,3rd Year,Engineering,Hostel,3
+593,Male,2nd Year,Management,Cafeteria,5
+594,Male,1st Year,Arts,WiFi,2
+595,Female,1st Year,Arts,Cafeteria,2
+596,Female,4th Year,Management,Hostel,5
+597,Male,3rd Year,Science,Library,3
+598,Male,1st Year,Engineering,WiFi,5
+599,Female,3rd Year,Engineering,Sports Center,5
+600,Male,4th Year,Arts,Hostel,1
+601,Male,3rd Year,Arts,Hostel,3
+602,Female,4th Year,Engineering,Cafeteria,3
+603,Female,1st Year,Arts,Library,2
+604,Female,2nd Year,Science,Hostel,5
+605,Female,2nd Year,Engineering,Cafeteria,4
+606,Male,1st Year,Management,Sports Center,1
+607,Female,3rd Year,Engineering,Cafeteria,3
+608,Male,1st Year,Management,Library,3
+609,Female,2nd Year,Engineering,Cafeteria,5
+610,Female,3rd Year,Arts,Hostel,3
+611,Male,2nd Year,Arts,Hostel,3
+612,Female,1st Year,Science,Hostel,1
+613,Female,3rd Year,Science,Sports Center,4
+614,Female,3rd Year,Management,WiFi,5
+615,Female,4th Year,Engineering,Hostel,1
+616,Male,4th Year,Management,Library,4
+617,Male,2nd Year,Management,WiFi,4
+618,Male,2nd Year,Management,Sports Center,2
+619,Female,2nd Year,Management,Cafeteria,2
+620,Female,4th Year,Arts,Hostel,5
+621,Male,3rd Year,Engineering,Library,2
+622,Female,2nd Year,Science,Cafeteria,3
+623,Male,4th Year,Science,Library,2
+624,Male,1st Year,Science,Library,3
+625,Female,3rd Year,Arts,Library,3
+626,Male,2nd Year,Science,Sports Center,5
+627,Male,3rd Year,Arts,WiFi,4
+628,Male,3rd Year,Arts,Library,1
+629,Male,4th Year,Arts,Cafeteria,3
+630,Male,2nd Year,Arts,Cafeteria,2
+631,Male,4th Year,Management,Library,3
+632,Male,4th Year,Engineering,Cafeteria,4
+633,Female,1st Year,Arts,Library,4
+634,Male,2nd Year,Engineering,Sports Center,3
+635,Female,4th Year,Management,Sports Center,3
+636,Female,3rd Year,Management,Sports Center,5
+637,Female,2nd Year,Arts,Sports Center,2
+638,Female,4th Year,Arts,WiFi,3
+639,Female,4th Year,Engineering,Cafeteria,2
+640,Female,2nd Year,Arts,Sports Center,3
+641,Female,4th Year,Engineering,Hostel,5
+642,Female,1st Year,Management,Hostel,5
+643,Male,1st Year,Arts,WiFi,5
+644,Male,3rd Year,Management,Library,2
+645,Female,1st Year,Arts,Hostel,1
+646,Female,4th Year,Management,Library,5
+647,Female,1st Year,Management,Library,1
+648,Female,4th Year,Arts,WiFi,2
+649,Male,1st Year,Arts,Sports Center,5
+650,Female,2nd Year,Management,Hostel,3
+651,Male,3rd Year,Management,WiFi,4
+652,Male,1st Year,Engineering,Cafeteria,1
+653,Male,3rd Year,Science,Library,4
+654,Male,4th Year,Science,WiFi,3
+655,Female,2nd Year,Arts,Cafeteria,4
+656,Male,2nd Year,Engineering,Hostel,1
+657,Female,3rd Year,Science,Hostel,4
+658,Female,2nd Year,Arts,Sports Center,2
+659,Female,2nd Year,Arts,Sports Center,3
+660,Male,4th Year,Management,Library,5
+661,Female,1st Year,Management,Library,1
+662,Male,1st Year,Management,Hostel,2
+663,Female,1st Year,Management,Library,4
+664,Female,1st Year,Arts,Cafeteria,1
+665,Male,1st Year,Engineering,Hostel,1
+666,Female,4th Year,Engineering,WiFi,1
+667,Female,1st Year,Management,Library,4
+668,Male,4th Year,Engineering,Library,3
+669,Male,4th Year,Science,Sports Center,5
+670,Female,3rd Year,Science,WiFi,5
+671,Female,4th Year,Management,Hostel,4
+672,Female,2nd Year,Arts,Cafeteria,2
+673,Female,2nd Year,Arts,WiFi,5
+674,Male,3rd Year,Management,Sports Center,1
+675,Female,3rd Year,Arts,WiFi,4
+676,Male,4th Year,Science,Hostel,5
+677,Female,1st Year,Science,Sports Center,2
+678,Female,1st Year,Science,Cafeteria,5
+679,Male,3rd Year,Science,Cafeteria,3
+680,Male,4th Year,Management,Cafeteria,3
+681,Female,1st Year,Science,Library,3
+682,Female,3rd Year,Arts,Library,2
+683,Female,2nd Year,Science,WiFi,5
+684,Female,4th Year,Engineering,Hostel,5
+685,Male,3rd Year,Engineering,Cafeteria,5
+686,Male,3rd Year,Arts,Cafeteria,1
+687,Female,2nd Year,Engineering,Hostel,5
+688,Female,1st Year,Management,Cafeteria,1
+689,Male,3rd Year,Science,Hostel,3
+690,Male,2nd Year,Arts,Hostel,3
+691,Female,4th Year,Science,Cafeteria,2
+692,Male,3rd Year,Engineering,Hostel,5
+693,Male,4th Year,Engineering,WiFi,5
+694,Male,4th Year,Science,Library,5
+695,Male,1st Year,Management,Library,4
+696,Female,4th Year,Arts,WiFi,1
+697,Male,1st Year,Arts,WiFi,3
+698,Male,1st Year,Management,Sports Center,4
+699,Female,4th Year,Arts,Sports Center,3
+700,Female,4th Year,Science,Hostel,1
+701,Female,3rd Year,Management,Sports Center,4
+702,Female,4th Year,Management,Cafeteria,3
+703,Female,2nd Year,Engineering,Cafeteria,3
+704,Female,4th Year,Science,Sports Center,3
+705,Male,1st Year,Engineering,Hostel,3
+706,Male,2nd Year,Science,Hostel,2
+707,Female,3rd Year,Arts,WiFi,2
+708,Female,1st Year,Engineering,Hostel,2
+709,Male,1st Year,Arts,WiFi,5
+710,Male,3rd Year,Science,WiFi,4
+711,Male,1st Year,Arts,Hostel,5
+712,Female,3rd Year,Management,Sports Center,5
+713,Female,1st Year,Science,Library,1
+714,Female,1st Year,Engineering,Cafeteria,4
+715,Female,4th Year,Science,Hostel,3
+716,Male,4th Year,Management,Sports Center,1
+717,Female,2nd Year,Management,Cafeteria,3
+718,Female,2nd Year,Science,WiFi,1
+719,Male,4th Year,Arts,Hostel,5
+720,Female,4th Year,Management,WiFi,1
+721,Male,1st Year,Science,Cafeteria,2
+722,Female,2nd Year,Engineering,Library,1
+723,Male,4th Year,Engineering,Hostel,5
+724,Female,2nd Year,Science,Hostel,2
+725,Male,2nd Year,Science,Library,3
+726,Female,3rd Year,Management,Cafeteria,1
+727,Male,2nd Year,Science,Library,1
+728,Female,2nd Year,Science,Sports Center,5
+729,Female,2nd Year,Management,Cafeteria,3
+730,Male,3rd Year,Science,Library,3
+731,Female,2nd Year,Science,Sports Center,2
+732,Male,2nd Year,Management,WiFi,3
+733,Female,1st Year,Engineering,Cafeteria,1
+734,Female,3rd Year,Engineering,Cafeteria,3
+735,Male,4th Year,Management,WiFi,4
+736,Male,3rd Year,Management,WiFi,4
+737,Male,3rd Year,Engineering,Library,2
+738,Male,4th Year,Management,Cafeteria,5
+739,Male,3rd Year,Science,WiFi,5
+740,Male,1st Year,Engineering,Hostel,5
+741,Female,3rd Year,Arts,WiFi,5
+742,Male,1st Year,Science,Library,2
+743,Male,3rd Year,Science,Cafeteria,1
+744,Female,3rd Year,Engineering,WiFi,2
+745,Male,3rd Year,Management,WiFi,1
+746,Female,1st Year,Management,Sports Center,4
+747,Female,2nd Year,Engineering,Sports Center,2
+748,Male,1st Year,Management,Sports Center,4
+749,Female,4th Year,Management,Cafeteria,1
+750,Female,4th Year,Engineering,WiFi,4
+751,Female,3rd Year,Science,Hostel,1
+752,Female,3rd Year,Science,Hostel,2
+753,Female,4th Year,Engineering,Library,5
+754,Male,4th Year,Management,WiFi,4
+755,Female,2nd Year,Science,Hostel,4
+756,Male,4th Year,Engineering,WiFi,1
+757,Male,4th Year,Engineering,Library,3
+758,Male,2nd Year,Management,Library,4
+759,Male,4th Year,Engineering,Library,3
+760,Male,2nd Year,Science,Sports Center,1
+761,Male,1st Year,Science,Sports Center,2
+762,Female,4th Year,Management,Sports Center,5
+763,Male,3rd Year,Arts,Hostel,5
+764,Female,2nd Year,Management,Cafeteria,3
+765,Female,2nd Year,Science,Sports Center,3
+766,Female,3rd Year,Management,Hostel,4
+767,Female,2nd Year,Arts,Library,1
+768,Male,1st Year,Arts,Hostel,1
+769,Male,1st Year,Science,WiFi,5
+770,Female,2nd Year,Management,WiFi,5
+771,Male,1st Year,Engineering,Hostel,5
+772,Male,2nd Year,Management,Cafeteria,4
+773,Male,3rd Year,Engineering,Cafeteria,2
+774,Male,1st Year,Engineering,Sports Center,3
+775,Male,1st Year,Engineering,Library,5
+776,Male,1st Year,Engineering,WiFi,1
+777,Male,1st Year,Arts,Hostel,4
+778,Female,3rd Year,Arts,Hostel,3
+779,Female,1st Year,Science,Cafeteria,1
+780,Female,4th Year,Management,Sports Center,1
+781,Male,4th Year,Science,Sports Center,1
+782,Female,3rd Year,Management,WiFi,4
+783,Female,1st Year,Engineering,Sports Center,4
+784,Female,1st Year,Management,Hostel,1
+785,Male,1st Year,Arts,Library,5
+786,Female,3rd Year,Arts,Sports Center,3
+787,Male,3rd Year,Management,Hostel,4
+788,Female,2nd Year,Engineering,WiFi,2
+789,Female,4th Year,Science,Sports Center,4
+790,Female,3rd Year,Management,Library,2
+791,Male,1st Year,Management,Hostel,2
+792,Male,2nd Year,Management,Sports Center,5
+793,Female,1st Year,Engineering,Sports Center,4
+794,Female,4th Year,Engineering,Sports Center,5
+795,Female,3rd Year,Engineering,Cafeteria,3
+796,Female,4th Year,Science,Cafeteria,1
+797,Female,3rd Year,Arts,Hostel,3
+798,Male,4th Year,Management,Cafeteria,5
+799,Female,3rd Year,Science,Cafeteria,4
+800,Male,3rd Year,Arts,Hostel,1
