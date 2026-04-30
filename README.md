@@ -92,7 +92,7 @@ Password: admin123
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/Campus_Pulse_Dashboard.git
+git clone https://github.com/AryanBharti5080/Campus-Pulse-Student-Satisfaction-Dashboard.git
 
 cd Campus_Pulse_Dashboard
 
