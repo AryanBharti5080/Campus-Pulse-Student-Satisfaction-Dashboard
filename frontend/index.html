@@ -282,7 +282,7 @@
         .charts {
             display: grid; grid-template-columns: 1fr 1fr;
             gap: 1rem; animation: fadeUp 0.6s 0.3s ease both;
-        }
+        }.full-width {grid-column: span 2;}
 
         .chart-box {
             background: var(--card-bg); border: 1px solid var(--border);
@@ -549,6 +549,14 @@
             <canvas id="yearChart"></canvas>
         </div>
 
+        <div class="chart-box full-width">
+            <div class="chart-header">
+                <span class="chart-title">Satisfaction Trend Over Time</span>
+                <span class="chart-tag">Line</span>
+            </div>
+            <canvas id="timeChart"></canvas>
+        </div>
+
     </div>
 </div>
 
@@ -663,22 +671,36 @@
                 let facilityCount = {};
                 let departmentAvg = {};
                 let yearAvg       = {};
+                let timeAvg       = {};
 
+                // ✅ FIXED: Single forEach loop — no nesting, no duplication
                 data.forEach(item => {
                     sum += item.satisfaction_score;
 
+                    // Facility
                     if (!facilityAvg[item.facility]) facilityAvg[item.facility] = { total: 0, count: 0 };
                     facilityAvg[item.facility].total += item.satisfaction_score;
                     facilityAvg[item.facility].count++;
                     facilityCount[item.facility] = (facilityCount[item.facility] || 0) + 1;
 
+                    // Department
                     if (!departmentAvg[item.department]) departmentAvg[item.department] = { total: 0, count: 0 };
                     departmentAvg[item.department].total += item.satisfaction_score;
                     departmentAvg[item.department].count++;
 
+                    // Year
                     if (!yearAvg[item.year]) yearAvg[item.year] = { total: 0, count: 0 };
                     yearAvg[item.year].total += item.satisfaction_score;
                     yearAvg[item.year].count++;
+
+                    // ✅ FIXED: Timestamp — inside the loop, handles both "YYYY-MM-DD HH:MM:SS" and "YYYY-MM-DD" formats
+                    if (item.timestamp) {
+                        // Split on space or T to support "2024-01-15 10:30:00" and "2024-01-15T10:30:00"
+                        let date = item.timestamp.split(/[ T]/)[0];
+                        if (!timeAvg[date]) timeAvg[date] = { total: 0, count: 0 };
+                        timeAvg[date].total += item.satisfaction_score;
+                        timeAvg[date].count++;
+                    }
                 });
 
                 let avg = (sum / total).toFixed(2);
@@ -698,11 +720,13 @@
                     "Last updated: " + now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
                 function prepareAvg(obj) {
+                    // Sort by key for consistent ordering (important for time chart)
+                    let keys = Object.keys(obj).sort();
                     let labels = [], values = [];
-                    for (let k in obj) {
+                    keys.forEach(k => {
                         labels.push(k);
                         values.push(+(obj[k].total / obj[k].count).toFixed(2));
-                    }
+                    });
                     return { labels, values };
                 }
 
@@ -714,6 +738,7 @@
                 let fCount = prepareCount(facilityCount);
                 let dAvg   = prepareAvg(departmentAvg);
                 let yAvg   = prepareAvg(yearAvg);
+                let tAvg   = prepareAvg(timeAvg); // dates are sorted chronologically
 
                 // Gauge
                 let avgNum    = parseFloat(avg);
@@ -842,6 +867,22 @@
                             data: yAvg.values,
                             borderColor: "#38bdf8",
                             backgroundColor: "rgba(56,189,248,0.12)",
+                            fill: true
+                        }]
+                    },
+                    options: lineOpts
+                }));
+
+                //  Time chart uses full lineOpts styling, with sorted dates on X axis
+                window._charts.push(new Chart(document.getElementById("timeChart"), {
+                    type: "line",
+                    data: {
+                        labels: tAvg.labels,
+                        datasets: [{
+                            label: "Satisfaction Trend",
+                            data: tAvg.values,
+                            borderColor: "#a78bfa",
+                            backgroundColor: "rgba(167,139,250,0.12)",
                             fill: true
                         }]
                     },
