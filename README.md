@@ -9,7 +9,7 @@ This project demonstrates end-to-end development including data generation, anal
 
 Campus Pulse helps analyze how students feel about different campus facilities.
 
-It allows users to:
+It allows Admin to:
 1. View overall satisfaction metrics.
 2. Analyze trends across departments and years
 3. Filter data dynamically 
