@@ -577,7 +577,7 @@
         document.getElementById("facilityFilter").value   = "";
         document.getElementById("departmentFilter").value = "";
         document.getElementById("yearFilter").value       = "";
-        loadData("https://your-backend-url.onrender.com/data");
+        loadData("https://campus-pulse-backend-ifpl.onrender.com/data");
     }
 
     // Chart defaults
@@ -902,7 +902,7 @@
         let department = document.getElementById("departmentFilter").value;
         let year       = document.getElementById("yearFilter").value;
 
-        let url = "https://your-backend-url.onrender.com/filtered?";
+        let url = "https://campus-pulse-backend-ifpl.onrender.com/filtered?";
         if (facility)   url += `facility=${encodeURIComponent(facility)}&`;
         if (department) url += `department=${encodeURIComponent(department)}&`;
         if (year)       url += `year=${encodeURIComponent(year)}`;
@@ -910,7 +910,7 @@
         loadData(url);
     }
 
-    loadData("https://your-backend-url.onrender.com/data");
+    loadData("https://campus-pulse-backend-ifpl.onrender.com/data");
 </script>
 
 </body>
