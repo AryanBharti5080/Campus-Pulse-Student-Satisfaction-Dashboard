@@ -190,9 +190,8 @@ This project demonstrates:
 #  Demo Video Link:
 ##  https://drive.google.com/file/d/1hcjo1N8PgzSsSBAhuN6fyy4P3MIsyOzl/view?usp=drive_link
 
-
-
-
+# Deployed Link:
+## https://aryanbharti5080.github.io/Campus-Pulse-Student-Satisfaction-Dashboard/login.html
 
 ## ⭐ If You Like This Project
 
