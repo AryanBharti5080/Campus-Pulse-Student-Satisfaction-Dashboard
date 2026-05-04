@@ -577,7 +577,7 @@
         document.getElementById("facilityFilter").value   = "";
         document.getElementById("departmentFilter").value = "";
         document.getElementById("yearFilter").value       = "";
-        loadData("http://127.0.0.1:8000/data");
+        loadData("https://your-backend-url.onrender.com/data");
     }
 
     // Chart defaults
@@ -902,7 +902,7 @@
         let department = document.getElementById("departmentFilter").value;
         let year       = document.getElementById("yearFilter").value;
 
-        let url = "http://127.0.0.1:8000/filtered?";
+        let url = "https://your-backend-url.onrender.com/filtered?";
         if (facility)   url += `facility=${encodeURIComponent(facility)}&`;
         if (department) url += `department=${encodeURIComponent(department)}&`;
         if (year)       url += `year=${encodeURIComponent(year)}`;
@@ -910,7 +910,7 @@
         loadData(url);
     }
 
-    loadData("http://127.0.0.1:8000/data");
+    loadData("https://your-backend-url.onrender.com/data");
 </script>
 
 </body>
