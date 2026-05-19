@@ -560,7 +560,7 @@
         btn.disabled = true;
         errorEl.classList.remove('show');
 
-        fetch(`http://127.0.0.1:8000/login?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`, {
+        fetch(`https://campus-pulse-backend-ifpl.onrender.com/login?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`, {
             method: "POST"
         })
         .then(res => {
