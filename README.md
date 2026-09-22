@@ -81,10 +81,6 @@ Campus_Pulse_Dashboard/
 2. Session handled using localStorage
 
 
-## 🔐 Login Credentials
-Username: admin
-Password: admin123
-
 ## ⚙️ Setup Instructions (Windows)
 
 ### 1. Clone Repository
